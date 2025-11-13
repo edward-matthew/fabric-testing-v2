@@ -1,0 +1,297 @@
+table Sheet1
+	lineageTag: adc952b4-8666-448f-8a89-f94d795f3525
+
+	column Nomor
+		dataType: string
+		lineageTag: c425215c-555d-428f-b76b-5f3e22411e79
+		summarizeBy: none
+		sourceColumn: Nomor
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Jenis Pasien'
+		dataType: string
+		lineageTag: d921aa77-3924-41b8-bc53-92de4bec4dc7
+		summarizeBy: none
+		sourceColumn: Jenis Pasien
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Adm Num.'
+		dataType: string
+		lineageTag: af59b6e5-f5e1-45bb-a585-5c47fa06b50c
+		summarizeBy: none
+		sourceColumn: Adm Num.
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Adm Num. Status Hope'
+		dataType: string
+		lineageTag: 6da6947e-c806-4f17-81a3-c0f21a5b24db
+		summarizeBy: none
+		sourceColumn: Adm Num. Status Hope
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Local MR  Num'
+		dataType: int64
+		formatString: 0
+		lineageTag: f8cac470-8192-41e6-9b85-78cac62e490a
+		summarizeBy: sum
+		sourceColumn: Local MR  Num
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nama Dokter'
+		dataType: string
+		lineageTag: 51734985-12fb-4f27-afee-6e47d0795885
+		summarizeBy: none
+		sourceColumn: Nama Dokter
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipe Pasien'
+		dataType: string
+		lineageTag: 05904436-9dc1-49c6-ae67-b1cee61faefd
+		summarizeBy: none
+		sourceColumn: Tipe Pasien
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Payer Name'
+		dataType: string
+		lineageTag: 07b79199-7643-484a-9d94-442572d0494d
+		summarizeBy: none
+		sourceColumn: Payer Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Appointment
+		dataType: string
+		lineageTag: 8641574a-6591-4f29-8a40-e286535644cf
+		summarizeBy: none
+		sourceColumn: Appointment
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Appointment Time'
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: 40f784c5-9ae9-451a-b459-31dcc6f206ef
+		summarizeBy: none
+		sourceColumn: Appointment Time
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column 'Tgl Ambil'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3aed464a-e17a-4eef-aa69-86cfcff1deab
+		summarizeBy: sum
+		sourceColumn: Tgl Ambil
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Jam Ambil'
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: 554f0a2b-5aab-4f0e-bd46-cc070817fbb8
+		summarizeBy: none
+		sourceColumn: Jam Ambil
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column 'Jam Panggil FO'
+		dataType: string
+		lineageTag: b336f354-b826-4a7e-9fbe-971271098ed6
+		summarizeBy: none
+		sourceColumn: Jam Panggil FO
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Jam Checkin'
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: 9b620d53-eea6-40e2-b317-f9e30f52a65b
+		summarizeBy: none
+		sourceColumn: Jam Checkin
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column 'Jam Input Visit Number'
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: 64252f46-f49d-4c54-aac0-6190c8c51381
+		summarizeBy: none
+		sourceColumn: Jam Input Visit Number
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column 'User Regis'
+		dataType: string
+		lineageTag: fc7695a0-6ffe-4143-9d92-797166c2b5bc
+		summarizeBy: none
+		sourceColumn: User Regis
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Queue Line Regis'
+		dataType: string
+		lineageTag: 8f923444-5d25-4153-8d3e-c358a58f15fd
+		summarizeBy: none
+		sourceColumn: Queue Line Regis
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Button Name Regis'
+		dataType: string
+		lineageTag: c451fd27-e995-445e-9dc5-4345a882a682
+		summarizeBy: none
+		sourceColumn: Button Name Regis
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Jam Scan Tiket'
+		dataType: string
+		lineageTag: 391ba1de-aa25-47b3-b0d9-0cf965b37d39
+		summarizeBy: none
+		sourceColumn: Jam Scan Tiket
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Jam Panggil Cashier'
+		dataType: string
+		lineageTag: 2ade7f82-84e0-47a2-899a-4807cf298f11
+		summarizeBy: none
+		sourceColumn: Jam Panggil Cashier
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tanggal Billing'
+		dataType: string
+		lineageTag: d441dd1a-62c9-497f-a42d-d8c9826b3312
+		summarizeBy: none
+		sourceColumn: Tanggal Billing
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Jam Billing'
+		dataType: string
+		lineageTag: a0f6e56e-4c66-4f65-bf03-2fe9f50dc890
+		summarizeBy: none
+		sourceColumn: Jam Billing
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Jam Billing Item Issue'
+		dataType: string
+		lineageTag: 638e2bc7-5253-4289-8c50-86bff272e3c7
+		summarizeBy: none
+		sourceColumn: Jam Billing Item Issue
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Adm. Num Item Issue'
+		dataType: string
+		lineageTag: dfc4adf3-43e0-4416-a154-830df713dfa8
+		summarizeBy: none
+		sourceColumn: Adm. Num Item Issue
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'User Cashier'
+		dataType: string
+		lineageTag: 6b96e013-b2ce-43c2-8277-63238de9f1b7
+		summarizeBy: none
+		sourceColumn: User Cashier
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Queue Line Cashier'
+		dataType: string
+		lineageTag: 0a283d64-6342-40c5-b94c-6b66b8430325
+		summarizeBy: none
+		sourceColumn: Queue Line Cashier
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Button Name Cashier'
+		dataType: string
+		lineageTag: e8719564-c1bc-4fee-85fe-ee3700d1a420
+		summarizeBy: none
+		sourceColumn: Button Name Cashier
+
+		annotation SummarizationSetBy = Automatic
+
+	column Radiologi
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: a94f9244-f525-4c0d-96a2-4bc3579cf947
+		summarizeBy: none
+		sourceColumn: Radiologi
+
+		annotation SummarizationSetBy = Automatic
+
+	column Lab
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: a325b45b-6f35-4fbd-bcd1-8558cae3b672
+		summarizeBy: none
+		sourceColumn: Lab
+
+		annotation SummarizationSetBy = Automatic
+
+	column Farmasi
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 777c8ecc-dedf-42bc-a1b2-2d565ae68017
+		summarizeBy: none
+		sourceColumn: Farmasi
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Contactless Checkin'
+		dataType: string
+		lineageTag: 434fb7ec-8f72-45bd-94b2-754b5801510f
+		summarizeBy: none
+		sourceColumn: Contactless Checkin
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Express Checkout'
+		dataType: string
+		lineageTag: a9354927-a790-484e-9ea2-904805aba3dc
+		summarizeBy: none
+		sourceColumn: Express Checkout
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Appointment Created Date'
+		dataType: string
+		lineageTag: 030d9dc8-8ceb-4f92-a4f8-b851766505b0
+		summarizeBy: none
+		sourceColumn: Appointment Created Date
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Sheet1 = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(Web.Contents("https://siloamhospitals-my.sharepoint.com/personal/fransiskus_adrian_siloamhospitals_com/Documents/Apps/Microsoft Power Query/Uploaded Files/SHLV Apr 2025.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "Sheet1", Kind = "Sheet"]}[Data],
+				  #"Promoted Headers" = Table.PromoteHeaders(#"Navigation 1", [PromoteAllScalars = true]),
+				  #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Nomor", type text}, {"Jenis Pasien", type text}, {"Adm Num.", type text}, {"Adm Num. Status Hope", type text}, {"Local MR  Num", Int64.Type}, {"Nama Dokter", type text}, {"Tipe Pasien", type text}, {"Payer Name", type text}, {"Appointment", type text}, {"Appointment Time", type time}, {"Tgl Ambil", Int64.Type}, {"Jam Ambil", type time}, {"Jam Panggil FO", type text}, {"Jam Checkin", type time}, {"Jam Input Visit Number", type time}, {"User Regis", type text}, {"Queue Line Regis", type text}, {"Button Name Regis", type text}, {"Jam Scan Tiket", type text}, {"Jam Panggil Cashier", type text}, {"Jam Billing", type text}, {"Jam Billing Item Issue", type text}, {"Adm. Num Item Issue", type text}, {"User Cashier", type text}, {"Queue Line Cashier", type text}, {"Button Name Cashier", type text}, {"Radiologi", type logical}, {"Lab", type logical}, {"Farmasi", type logical}, {"Contactless Checkin", type text}, {"Appointment Created Date", type text}}, "en-GB")
+				in
+				  #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

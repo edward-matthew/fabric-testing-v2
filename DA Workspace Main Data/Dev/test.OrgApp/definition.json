@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/orgapp/definition/orgAppDefinition/1.0.0/schema.json",
+  "settings": {},
+  "elements": [
+    {
+      "elementType": "section",
+      "elementId": "a6103d19-db68-4331-a9e2-367995c339a0",
+      "elements": [
+        {
+          "elementType": "item",
+          "elementId": "23e9b212-c3f8-41c4-bdb4-87ac7ee27510",
+          "itemType": "Report",
+          "itemLogicalId": "c3b24907-7a9f-be91-400b-60a1b7807f27",
+          "displayName": "oncology"
+        }
+      ],
+      "displayName": "A"
+    },
+    {
+      "elementType": "item",
+      "elementId": "9e1517c5-e8f0-4fb4-a2c1-c4417dfc98d4",
+      "itemType": "Report",
+      "itemLogicalId": "6d7c9424-385f-861d-447b-f807c5f0f368",
+      "displayName": "heart"
+    },
+    {
+      "elementType": "item",
+      "elementId": "ef0c9770-1239-4b4c-b9cb-85f770b2c2f3",
+      "itemType": "SemanticModel",
+      "itemLogicalId": "f285a0a6-135b-b9c9-485e-122ad7ba0c80",
+      "displayName": "23e9b212-c3f8-41c4-bdb4-87ac7ee27510"
+    },
+    {
+      "elementType": "item",
+      "elementId": "03c1dd1e-95cb-43c0-bacb-a6fe752d5f0d",
+      "itemType": "SemanticModel",
+      "itemLogicalId": "901f985f-9672-981b-4d8a-c85f50e139ac",
+      "displayName": "9e1517c5-e8f0-4fb4-a2c1-c4417dfc98d4"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "OrgApp",
+    "displayName": "EMR Surgical Care Adoption Rate Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "17da0f94-61f7-9407-4c5f-2ee5bc0a9259"
+  }
+}

@@ -1,0 +1,15 @@
+relationship 16b10a4a-5b96-4591-aef0-c7a8ba62d052
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Sheet1.'Appointment Date'
+	toColumn: LocalDateTable_a066cf45-9e71-4e67-b700-97ffe129676e.Date
+
+relationship 2f1be2bd-7e14-4961-9a31-cb2f3343f429
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Sheet1.'Birth Date'
+	toColumn: LocalDateTable_1e25380c-f45b-42ce-a53f-cb536e5b14e0.Date
+
+relationship 448ae05b-a095-4288-81bc-d0467f63aff3
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Sheet1.'Appointment Created Date'
+	toColumn: LocalDateTable_d4fb0b44-d949-4510-8e68-4261495ccd9f.Date
+

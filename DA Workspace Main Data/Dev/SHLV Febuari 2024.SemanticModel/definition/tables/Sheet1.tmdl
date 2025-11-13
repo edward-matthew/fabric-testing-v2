@@ -1,0 +1,257 @@
+table Sheet1
+	lineageTag: 2f77f2e7-f032-4d9b-a67c-9a85dd815a32
+
+	column 'Admission No'
+		dataType: string
+		lineageTag: 7ad928b6-21a1-4a7d-ba27-0dc55ff657ac
+		summarizeBy: none
+		sourceColumn: Admission No
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Doctor Name'
+		dataType: string
+		lineageTag: 6f07d58b-8aae-4ef7-97f7-1a7d3ba9cc22
+		summarizeBy: none
+		sourceColumn: Doctor Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Appointment VS Walk In'
+		dataType: string
+		lineageTag: 8ab495fe-f32a-4678-b03e-d86eb0ada07c
+		summarizeBy: none
+		sourceColumn: Appointment VS Walk In
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Appointment Date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 225dcd3f-c106-4de8-a625-b1b48f6cd1ec
+		summarizeBy: none
+		sourceColumn: Appointment Date
+
+		variation Variation
+			isDefault
+			relationship: 16b10a4a-5b96-4591-aef0-c7a8ba62d052
+			defaultHierarchy: LocalDateTable_a066cf45-9e71-4e67-b700-97ffe129676e.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Check-in
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: a3e15fce-ca5c-46a0-b911-280feccd506b
+		summarizeBy: none
+		sourceColumn: Check-in
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column 'Appointment Id'
+		dataType: string
+		lineageTag: 208c97e8-a5ca-467b-82e8-b8dbebc640c4
+		summarizeBy: none
+		sourceColumn: Appointment Id
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Appointment From Time'
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: 90978fe0-2b1d-4a19-87f1-57f5cd8c0773
+		summarizeBy: none
+		sourceColumn: Appointment From Time
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column 'Appointment To Time'
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: 3e16e724-fc14-4d3e-a21b-ded159363fbc
+		summarizeBy: none
+		sourceColumn: Appointment To Time
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column 'First Click EMR'
+		dataType: string
+		lineageTag: 7b741a50-28ca-4b38-8fba-830322970b8f
+		summarizeBy: none
+		sourceColumn: First Click EMR
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Waiting Time'
+		dataType: string
+		lineageTag: 62845692-0620-4ed3-a758-c803c56acdc3
+		summarizeBy: none
+		sourceColumn: Waiting Time
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Is Waiting List'
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 6ca2b1ce-996c-4cce-993a-f71d2aa30b9f
+		summarizeBy: none
+		sourceColumn: Is Waiting List
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tardiness
+		dataType: string
+		lineageTag: 59be3015-6237-418d-ae58-d437a5a4098b
+		summarizeBy: none
+		sourceColumn: Tardiness
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Patient Time Punctuality'
+		dataType: string
+		lineageTag: 7ef649bb-787f-4972-aadb-c9239c13c96d
+		summarizeBy: none
+		sourceColumn: Patient Time Punctuality
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'IS GP'
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: c1db5771-6ae1-4bae-976c-8ba477a57142
+		summarizeBy: none
+		sourceColumn: IS GP
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Patient Name'
+		dataType: string
+		lineageTag: d9afcf36-d8e5-42c3-a809-32f3530877ca
+		summarizeBy: none
+		sourceColumn: Patient Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Birth Date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 1804ec18-17d7-4490-9564-fcf37633ce96
+		summarizeBy: none
+		sourceColumn: Birth Date
+
+		variation Variation
+			isDefault
+			relationship: 2f1be2bd-7e14-4961-9a31-cb2f3343f429
+			defaultHierarchy: LocalDateTable_1e25380c-f45b-42ce-a53f-cb536e5b14e0.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Medical Record Number'
+		dataType: string
+		lineageTag: d4efdfa5-39f4-4485-8ac5-fb9a9db28f27
+		summarizeBy: none
+		sourceColumn: Medical Record Number
+
+		annotation SummarizationSetBy = Automatic
+
+	column Payer
+		dataType: string
+		lineageTag: b3fb7af2-ee7f-42ea-8915-1dabf5685365
+		summarizeBy: none
+		sourceColumn: Payer
+
+		annotation SummarizationSetBy = Automatic
+
+	column Channel
+		dataType: string
+		lineageTag: 8eaf9367-c159-43f8-999b-6f6c3779134c
+		summarizeBy: none
+		sourceColumn: Channel
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Call Time'
+		dataType: string
+		lineageTag: 6659f849-63da-4217-b4d2-3053b6fa5106
+		summarizeBy: none
+		sourceColumn: Call Time
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Done Time'
+		dataType: string
+		lineageTag: 25389879-b521-4795-a9ae-48db30a776cd
+		summarizeBy: none
+		sourceColumn: Done Time
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Call To Done'
+		dataType: string
+		lineageTag: 42aed6a1-a7d2-4a2d-acbc-fea41df0c12e
+		summarizeBy: none
+		sourceColumn: Call To Done
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Invoice Time'
+		dataType: string
+		lineageTag: 9a2057b0-0b63-450b-aed2-e49760599733
+		summarizeBy: none
+		sourceColumn: Invoice Time
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Invoice Waiting Time'
+		dataType: string
+		lineageTag: d269a947-7bf5-43b2-9cdb-5da47f50dc73
+		summarizeBy: none
+		sourceColumn: Invoice Waiting Time
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Consultation Punctuality'
+		dataType: string
+		lineageTag: 64677b2a-9aeb-4d1e-b5ff-3095d8cd1d1c
+		summarizeBy: none
+		sourceColumn: Consultation Punctuality
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Appointment Created Date'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 6bef2012-4ed4-4074-9013-48e52ea296bc
+		summarizeBy: none
+		sourceColumn: Appointment Created Date
+
+		variation Variation
+			isDefault
+			relationship: 448ae05b-a095-4288-81bc-d0467f63aff3
+			defaultHierarchy: LocalDateTable_d4fb0b44-d949-4510-8e68-4261495ccd9f.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Sheet1 = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(Web.Contents("https://siloamhospitals-my.sharepoint.com/personal/fransiskus_adrian_siloamhospitals_com/Documents/Apps/Microsoft Power Query/Uploaded Files/SHLV Febuari 2024.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "Sheet1", Kind = "Sheet"]}[Data],
+				  #"Promoted Headers" = Table.PromoteHeaders(#"Navigation 1", [PromoteAllScalars = true]),
+				  #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Admission No", type text}, {"Doctor Name", type text}, {"Appointment VS Walk In", type text}, {"Appointment Date", type date}, {"Check-in", type time}, {"Appointment Id", type text}, {"Appointment From Time", type time}, {"Appointment To Time", type time}, {"First Click EMR", type text}, {"Waiting Time", type text}, {"Is Waiting List", type logical}, {"Tardiness", type text}, {"Patient Time Punctuality", type text}, {"IS GP", type logical}, {"Patient Name", type text}, {"Birth Date", type date}, {"Payer", type text}, {"Channel", type text}, {"Call Time", type text}, {"Done Time", type text}, {"Call To Done", type text}, {"Invoice Time", type text}, {"Invoice Waiting Time", type text}, {"Consultation Punctuality", type text}, {"Appointment Created Date", type datetime}}, "en-GB")
+				in
+				  #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
