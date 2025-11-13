@@ -1,0 +1,338 @@
+table tm_doctor
+	lineageTag: b65d825b-072f-4f0e-ac96-cbcd7a9ab1a4
+	sourceLineageTag: [mysiloam_schedules_public].[tm_doctor]
+
+	column specialization_id
+		dataType: string
+		lineageTag: 595b3eba-909e-484a-85a7-bce1a2834ddf
+		sourceLineageTag: specialization_id
+		summarizeBy: none
+		sourceColumn: specialization_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: 7a1ea41b-baad-4eef-94a6-644716770bc9
+		sourceLineageTag: name
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column doctor_status_id
+		dataType: string
+		lineageTag: cd6073ee-0e5a-4b8e-a47d-bd02be74d250
+		sourceLineageTag: doctor_status_id
+		summarizeBy: none
+		sourceColumn: doctor_status_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column created_by
+		dataType: string
+		lineageTag: dd25e86c-f2fa-479d-851c-34bba9ab441e
+		sourceLineageTag: created_by
+		summarizeBy: none
+		sourceColumn: created_by
+
+		annotation SummarizationSetBy = Automatic
+
+	column created_from
+		dataType: string
+		lineageTag: 3fa35db6-2205-4417-ac44-4b774326ba73
+		sourceLineageTag: created_from
+		summarizeBy: none
+		sourceColumn: created_from
+
+		annotation SummarizationSetBy = Automatic
+
+	column modified_by
+		dataType: string
+		lineageTag: a9aed594-01cd-43e9-8dee-a39bc9796d72
+		sourceLineageTag: modified_by
+		summarizeBy: none
+		sourceColumn: modified_by
+
+		annotation SummarizationSetBy = Automatic
+
+	column datalakeFileModificationTime
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: a27b4744-674c-47b4-9a43-62256ffd67f5
+		sourceLineageTag: datalakeFileModificationTime
+		summarizeBy: none
+		sourceColumn: datalakeFileModificationTime
+
+		annotation SummarizationSetBy = Automatic
+
+	column datalakeTimestamp
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 4e4bbe2e-1be8-4996-af96-b056fdf2ed62
+		sourceLineageTag: datalakeTimestamp
+		summarizeBy: none
+		sourceColumn: datalakeTimestamp
+
+		annotation SummarizationSetBy = Automatic
+
+	column C_name_DoctorName
+		dataType: int64
+		formatString: 0
+		lineageTag: 508205a4-8423-48fb-a625-7b012c63e891
+		sourceLineageTag: C_name_DoctorName
+		summarizeBy: sum
+		sourceColumn: C_name_DoctorName
+
+		annotation SummarizationSetBy = Automatic
+
+	column code_doctor_bpjs
+		dataType: int64
+		formatString: 0
+		lineageTag: a398c4b0-6370-4b25-aa39-13405c541122
+		sourceLineageTag: code_doctor_bpjs
+		summarizeBy: sum
+		sourceColumn: code_doctor_bpjs
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_telechat
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 19a64d70-531f-4854-b26c-b1bf13700118
+		sourceLineageTag: is_telechat
+		summarizeBy: none
+		sourceColumn: is_telechat
+
+		annotation SummarizationSetBy = Automatic
+
+	column email_address_telechat
+		dataType: string
+		lineageTag: 71c078e8-00da-4f3d-8fb1-9da55aee0e1a
+		sourceLineageTag: email_address_telechat
+		summarizeBy: none
+		sourceColumn: email_address_telechat
+
+		annotation SummarizationSetBy = Automatic
+
+	column doctor_props
+		dataType: string
+		lineageTag: 9a863be7-17c7-457d-b1e0-e527bd3b997a
+		sourceLineageTag: doctor_props
+		summarizeBy: none
+		sourceColumn: doctor_props
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_hide
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 3c5b434a-e3b1-40de-bb03-3c336b960d9f
+		sourceLineageTag: is_hide
+		summarizeBy: none
+		sourceColumn: is_hide
+
+		annotation SummarizationSetBy = Automatic
+
+	column datalakeFilePath
+		dataType: string
+		lineageTag: f49a7707-8ef6-4424-bc4a-e46fc2f0efcd
+		sourceLineageTag: datalakeFilePath
+		summarizeBy: none
+		sourceColumn: datalakeFilePath
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_emergency_enable
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 4c13f8e6-8bb9-4115-9933-54a8bad947ff
+		sourceLineageTag: is_emergency_enable
+		summarizeBy: none
+		sourceColumn: is_emergency_enable
+
+		annotation SummarizationSetBy = Automatic
+
+	column email_address
+		dataType: string
+		lineageTag: 5b1790bd-367f-4f81-baa9-ea244bd91ca1
+		sourceLineageTag: email_address
+		summarizeBy: none
+		sourceColumn: email_address
+
+		annotation SummarizationSetBy = Automatic
+
+	column doctor_seo_key
+		dataType: string
+		lineageTag: 649c9005-6d43-4768-a0b3-dbecd2247605
+		sourceLineageTag: doctor_seo_key
+		summarizeBy: none
+		sourceColumn: doctor_seo_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column automatic_check_in
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: af514ca4-ae52-4786-b5ac-9034351c882d
+		sourceLineageTag: automatic_check_in
+		summarizeBy: none
+		sourceColumn: automatic_check_in
+
+		annotation SummarizationSetBy = Automatic
+
+	column prepaid_phone_number
+		dataType: string
+		lineageTag: c109e498-564d-4352-b2bc-fd8eeb5528c8
+		sourceLineageTag: prepaid_phone_number
+		summarizeBy: none
+		sourceColumn: prepaid_phone_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column email_address_zoom
+		dataType: string
+		lineageTag: b0b36108-cd9e-4cf8-a4a3-42c98057c4ba
+		sourceLineageTag: email_address_zoom
+		summarizeBy: none
+		sourceColumn: email_address_zoom
+
+		annotation SummarizationSetBy = Automatic
+
+	column created_name
+		dataType: string
+		lineageTag: ebc94bc8-fa41-4dbc-891c-c8577ae74121
+		sourceLineageTag: created_name
+		summarizeBy: none
+		sourceColumn: created_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column modified_name
+		dataType: string
+		lineageTag: c16e6d3e-ff89-4212-b55f-fbc9552b9d08
+		sourceLineageTag: modified_name
+		summarizeBy: none
+		sourceColumn: modified_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column image_url
+		dataType: string
+		lineageTag: eb243bc7-7167-4ab5-9898-6cfc338be027
+		sourceLineageTag: image_url
+		summarizeBy: none
+		sourceColumn: image_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column created_date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 26a8ddf3-093c-4c5e-8e8f-2460ae00491f
+		sourceLineageTag: created_date
+		summarizeBy: none
+		sourceColumn: created_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column modified_date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 79ea4382-39f9-4c9e-8c82-a679508084e4
+		sourceLineageTag: modified_date
+		summarizeBy: none
+		sourceColumn: modified_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column phone_number
+		dataType: string
+		lineageTag: a95e749b-47be-40ea-9acb-14f441ea557f
+		sourceLineageTag: phone_number
+		summarizeBy: none
+		sourceColumn: phone_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column modified_from
+		dataType: string
+		lineageTag: 37535f86-077f-4200-b857-37e0c941cce4
+		sourceLineageTag: modified_from
+		summarizeBy: none
+		sourceColumn: modified_from
+
+		annotation SummarizationSetBy = Automatic
+
+	column doctor_id
+		dataType: string
+		lineageTag: ca48eee4-8c66-42d0-8575-f9f8e72d248e
+		sourceLineageTag: doctor_id
+		summarizeBy: none
+		sourceColumn: doctor_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column doctor_hope_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 0376aab3-0ebd-441e-a6e9-2c85615ed502
+		sourceLineageTag: doctor_hope_id
+		summarizeBy: sum
+		sourceColumn: doctor_hope_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column gender
+		dataType: string
+		lineageTag: 13e0be9b-d88a-436e-84bc-3770a23b87be
+		sourceLineageTag: gender
+		summarizeBy: none
+		sourceColumn: gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column registration_number
+		dataType: string
+		lineageTag: 5ac6f069-2c08-4016-97d2-dfed18bd7f2e
+		sourceLineageTag: registration_number
+		summarizeBy: none
+		sourceColumn: registration_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column description
+		dataType: string
+		lineageTag: 0d9727e8-19ec-4117-bae7-d7bc792233d8
+		sourceLineageTag: description
+		summarizeBy: none
+		sourceColumn: description
+
+		annotation SummarizationSetBy = Automatic
+
+	column real_name
+		dataType: string
+		lineageTag: f51aae70-27e6-4c6f-9018-1669235dcd07
+		sourceLineageTag: real_name
+		summarizeBy: none
+		sourceColumn: real_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column priority_index
+		dataType: int64
+		formatString: 0
+		lineageTag: c77064a6-7b84-4395-af3f-43827dc38b21
+		sourceLineageTag: priority_index
+		summarizeBy: sum
+		sourceColumn: priority_index
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tm_doctor = entity
+		mode: directLake
+		source
+			entityName: tm_doctor
+			schemaName: mysiloam_schedules_public
+			expressionSource: 'DirectLake - lakehouse_da'
+

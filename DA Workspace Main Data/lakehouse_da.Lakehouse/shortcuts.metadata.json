@@ -1,0 +1,770 @@
+[
+  {
+    "name": "Preadmission",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/Preadmission",
+        "itemId": "bfa116a2-2653-4985-b963-1511ee9e943f",
+        "workspaceId": "eaa57b82-eefd-436c-ac3a-d8a3fcc9b9cb"
+      }
+    }
+  },
+  {
+    "name": "mysiloam_schedules_public",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/public_schema",
+        "itemId": "b1faaca3-4db7-412f-8064-9ca5e2712b8a",
+        "workspaceId": "9238c1a4-1a5d-4a17-91b4-b492257fcb2c"
+      }
+    }
+  },
+  {
+    "name": "mysiloam_appointments_public",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/public_schema",
+        "itemId": "d3d83890-b308-44ea-807a-2b371af82393",
+        "workspaceId": "9238c1a4-1a5d-4a17-91b4-b492257fcb2c"
+      }
+    }
+  },
+  {
+    "name": "kairos_his_preadmission",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/Preadmission",
+        "itemId": "bfa116a2-2653-4985-b963-1511ee9e943f",
+        "workspaceId": "eaa57b82-eefd-436c-ac3a-d8a3fcc9b9cb"
+      }
+    }
+  },
+  {
+    "name": "inifnit_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "2c164941-e818-449c-8b08-bde7a48e2e83",
+        "workspaceId": "e651da13-ac84-4301-a60a-c91e52383843"
+      }
+    }
+  },
+  {
+    "name": "infinit_spectra",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/SPECTRA",
+        "itemId": "2c164941-e818-449c-8b08-bde7a48e2e83",
+        "workspaceId": "e651da13-ac84-4301-a60a-c91e52383843"
+      }
+    }
+  },
+  {
+    "name": "his_ris_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "214053a1-9597-4877-b170-46a8d29fcee3",
+        "workspaceId": "08fef0a7-82f8-4592-9929-7c8f83ed18dc"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_workstationtrx",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/WorkstationTrx",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_workstation",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/Workstation",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_systemtrx",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/SystemTrx",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_system",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/System",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_securitytrx",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/SecurityTrx",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_security",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/Security",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_scheduletrx",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/ScheduleTrx",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_schedule",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/Schedule",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_salestrx",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/SalesTrx",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_sales",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/Sales",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_report",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/Report",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_purchasetrx",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/PurchaseTrx",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_purchase",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/Purchase",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_public",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/public",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_payment",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/PAYMENT",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_payerportaltrx",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/PayerPortalTrx",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_patienttrx",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/PatientTrx",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_patientfoldertrx",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/PatientFolderTrx",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_patientfolder",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/PatientFolder",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_patient",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/Patient",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_medicaltrx",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/MedicalTrx",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_medical",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/Medical",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_inventorytrx",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/InventoryTrx",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_inventory",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/Inventory",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_hard_delete",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/hard_delete",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_general",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/General",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_fainterfacetrx",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/FAInterfaceTrx",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_fainterface",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/FAInterface",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_reporting_BPJSTrx",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/BPJSTrx",
+        "itemId": "a7caf98a-87d9-4b80-8672-a8b780e22d99",
+        "workspaceId": "73f425e7-b672-4cf6-ace9-c7b47a8d6917"
+      }
+    }
+  },
+  {
+    "name": "his_ot_scheduling_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "52c15551-6ff4-4bc7-8dcf-724078248318",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "his_mims_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "8e8ebef8-0d7a-4089-9557-680bff2f4cac",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "his_lis_system",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/System",
+        "itemId": "fa6d20bb-9132-47d4-89c2-14b90ce3ab03",
+        "workspaceId": "08fef0a7-82f8-4592-9929-7c8f83ed18dc"
+      }
+    }
+  },
+  {
+    "name": "his_lis_patienttrx",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/PatientTrx",
+        "itemId": "fa6d20bb-9132-47d4-89c2-14b90ce3ab03",
+        "workspaceId": "08fef0a7-82f8-4592-9929-7c8f83ed18dc"
+      }
+    }
+  },
+  {
+    "name": "his_lis_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "fa6d20bb-9132-47d4-89c2-14b90ce3ab03",
+        "workspaceId": "08fef0a7-82f8-4592-9929-7c8f83ed18dc"
+      }
+    }
+  },
+  {
+    "name": "his_ipd_pharmacy_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "a567ec8a-53da-40a5-bd61-f400b9094161",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "his_ipd_nurse_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "707de56d-edd3-48e9-a2f8-88c4c8e9c631",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "his_ipd_drug_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "baa82b68-5c22-4dcf-875c-69325dc13db8",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "his_file_storage_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "cbe06b67-780c-4fff-9e0e-70500ea1db17",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "his_external_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "9f35eb9e-6e6d-4ab3-8e48-74dc02b53098",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "his_extension_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "cc8aafc2-0ffb-43a7-a324-3edb508ffec3",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "his_discharge_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "dda2bd75-81a6-4a8a-b2f8-980065ab2bf9",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "his_data_collection_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "548d0dc7-a06d-4916-8c2b-5a7d907c4b19",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "emr_transaction_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "801c852c-e202-4ca4-b87a-e74c2c0284f1",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "emr_soap_doctor_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "7f1f769e-b3ef-4f73-b16a-cfc743dd3f4c",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "emr_pharmacy_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "28cb49e0-049d-4611-9698-24707925675a",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "emr_nurse_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "ed862ec1-748c-4fd6-b4f5-41a74fac3bf3",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "emr_mysiloam_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "510f2ddb-99ae-4b9d-a762-cda78e009ea5",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "emr_master_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "40e33319-9047-480d-997b-ab8406ac850b",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "emr_integration_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "0ea27aec-4fed-4483-abf8-9559a33e91de",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "emr_his_ipd_activity_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "e96395a6-0ea2-4558-b878-ae11d7161fdc",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "emr_health_info_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "88520472-6a3f-43be-9af2-02be2f70f3b9",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "emr_ed_public",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/public_schema",
+        "itemId": "16ddbfe8-0a92-4296-8a41-7eaaf005af91",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "emr_db_emr_surgery_care",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/emr_surgerycare",
+        "itemId": "1c46cf6e-d9cf-4a65-8f31-c8a710cd3760",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  },
+  {
+    "name": "dev_lh_finance_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "54ce6075-3b8f-41b6-99e8-25ba1c112982",
+        "workspaceId": "0bffb71f-ddac-4755-8486-1940062ec677"
+      }
+    }
+  },
+  {
+    "name": "ddg_doctor_goverment_public_schema",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/public_schema",
+        "itemId": "36b81639-b62d-47ce-a6ba-f572d2f5bc21",
+        "workspaceId": "691fccdd-3ad3-4348-bbec-7a76ac738718"
+      }
+    }
+  },
+  {
+    "name": "content_management_dbo",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo",
+        "itemId": "4ac28e2e-523d-401f-8ade-0b9eb12e43eb",
+        "workspaceId": "c0de7775-6d57-4a5b-9182-1e8f6e972502"
+      }
+    }
+  }
+]

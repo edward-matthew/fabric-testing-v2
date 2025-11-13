@@ -1,0 +1,705 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/dataSource/1.0.0/schema.json",
+  "artifactId": "8b93c6ca-5991-4d97-a247-5466e75de874",
+  "workspaceId": "0bffb71f-ddac-4755-8486-1940062ec677",
+  "dataSourceInstructions": null,
+  "displayName": "AI_Semantic_Model",
+  "type": "semantic_model",
+  "userDescription": null,
+  "metadata": {},
+  "elements": [
+    {
+      "id": "57b975b7-eb50-4f5b-a7da-29488f537f7a",
+      "is_selected": true,
+      "display_name": "AdmissionSubType",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "82b0c6ca-711d-4f04-baac-18bc38d2e75e",
+          "is_selected": true,
+          "display_name": "Code",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": "Admission Sub Type Code",
+          "children": []
+        },
+        {
+          "id": "ccaba18d-6c61-46cc-9c5b-b23b424961b4",
+          "is_selected": true,
+          "display_name": "IsActive",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "aeafb9fb-df7b-47c7-ab65-c260d78990d9",
+          "is_selected": true,
+          "display_name": "Local Name",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": "Admission Sub Type in Indonesian",
+          "children": []
+        },
+        {
+          "id": "73d50038-7c40-47bd-903b-edfa088a7425",
+          "is_selected": true,
+          "display_name": "Name",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": "Admission Sub Type in English",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "4b382d53-2230-49ad-aed2-8a1d17e2bfbf",
+      "is_selected": true,
+      "display_name": "AdmissionType",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "71dc332a-ca6f-4902-b0e2-f17c662db6db",
+          "is_selected": true,
+          "display_name": "Code",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": "Admission Type Code",
+          "children": []
+        },
+        {
+          "id": "b1e4c59e-d1b2-4adb-91a9-685bf74030f3",
+          "is_selected": true,
+          "display_name": "IsActive",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "8c76a13b-bd9d-4109-88d8-5b0d5b64af3d",
+          "is_selected": true,
+          "display_name": "LocalName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": "Admission Type in Indonesian",
+          "children": []
+        },
+        {
+          "id": "858685f8-23e5-4a61-8268-d6042f9c0456",
+          "is_selected": true,
+          "display_name": "Name",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": "Admission Type in English",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "8f9213a7-8cd7-4a6a-b343-5f29ba03a1fd",
+      "is_selected": true,
+      "display_name": "DimDate",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "b8e3183e-b1a8-4ce3-b726-0202c377b5d1",
+          "is_selected": true,
+          "display_name": "Date",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "44bf84d3-d7b6-4385-9372-f1bbff02222e",
+          "is_selected": true,
+          "display_name": "Day",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "e6bcc8ee-55ad-48d0-bff1-f7517c744c58",
+          "is_selected": true,
+          "display_name": "DayOfWeek",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "a8ecada4-8c9d-4cce-82f4-229839292ba5",
+          "is_selected": true,
+          "display_name": "FiscalMonth",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "c74e6aa3-e2c3-417f-8033-4eada66d3459",
+          "is_selected": true,
+          "display_name": "FiscalYear",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "f5a4744c-1455-45a8-b8ca-6f5b1d4c7c83",
+          "is_selected": true,
+          "display_name": "HolidayName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "2328551f-bceb-4bb3-b93c-45b707420d3a",
+          "is_selected": true,
+          "display_name": "IsIndonesiaHoliday",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "25bf739b-2b92-4fb0-85a3-c570b182063f",
+          "is_selected": true,
+          "display_name": "IsWeekend",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "92d31386-ab64-4f8e-b799-7ed4c12a721c",
+          "is_selected": true,
+          "display_name": "Month",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "41d4f131-9f8b-48fd-a8a5-8c5d693da908",
+          "is_selected": true,
+          "display_name": "MonthFullName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "53c69ada-be98-4a07-aee4-864d4d2722fb",
+          "is_selected": true,
+          "display_name": "MonthNumber",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "4e98c6df-4257-4380-8744-070f0db7d86f",
+          "is_selected": true,
+          "display_name": "Quarter",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "be6d8572-d512-4ed5-a73f-f7fec0f7ca6e",
+          "is_selected": true,
+          "display_name": "week_of_year",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "f1c99cdb-158b-428d-abdc-91f695bdd555",
+          "is_selected": true,
+          "display_name": "WeekEndDate",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "275ade20-6696-45e9-83cd-9501aefad064",
+          "is_selected": true,
+          "display_name": "WeekIndex",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "94a67c13-1f5e-405e-9474-e84ab3a71343",
+          "is_selected": true,
+          "display_name": "WeekRange",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "ca4876d8-1c55-44d5-a299-712b7bea40bd",
+          "is_selected": true,
+          "display_name": "WeekStartDate",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "2c09e5fc-32ec-451c-a5f6-ad9adaf414e5",
+          "is_selected": true,
+          "display_name": "WeekStartSenin",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "bf5b3869-4139-4c39-b7e7-11f4e8b4b3e6",
+          "is_selected": true,
+          "display_name": "Year",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "23e053bd-3349-4c75-a297-e75168bb874f",
+          "is_selected": true,
+          "display_name": "YearMonthNo",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "4abb991e-e0c6-4e19-a1e7-ddbffe0d6730",
+          "is_selected": true,
+          "display_name": "YearQuarter",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "6e54b73c-c9e4-45c6-ac92-2edffec91ec6",
+          "is_selected": true,
+          "display_name": "YearWeekOfYear",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "4141d4b2-f580-43b2-8abc-e288702adce4",
+      "is_selected": true,
+      "display_name": "DimHospital",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "8dfbc9be-9834-46b2-abdc-f1e3735834eb",
+          "is_selected": true,
+          "display_name": "Address",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "7320292d-ce34-4bfe-825e-dd23402146c0",
+          "is_selected": true,
+          "display_name": "Archetype",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "26aff4d3-899b-433e-ad58-ab390465a282",
+          "is_selected": true,
+          "display_name": "HospitalCode",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "3558f06e-7ca6-485d-8d93-0ec15b26523c",
+          "is_selected": true,
+          "display_name": "HospitalName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "b10980cf-4091-49e4-a11b-db97a1e29659",
+      "is_selected": true,
+      "display_name": "DimPayer",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "904173f7-44ad-4134-aba1-ba2899002b89",
+          "is_selected": true,
+          "display_name": "PayerGroupName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "f2ee3632-7a41-45fc-863c-d03c2c57dd1e",
+          "is_selected": true,
+          "display_name": "PayerName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "536aba5c-e95c-4dd8-9073-035d96fe0064",
+          "is_selected": true,
+          "display_name": "PayerTypeName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "ba38c313-0bdf-4e77-b05d-d4e468eaa0fd",
+      "is_selected": true,
+      "display_name": "ExternalOrganization",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "a156136b-c2a7-4657-9c9c-67603a8211f8",
+          "is_selected": true,
+          "display_name": "Address",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "68abd3a5-0719-4a07-a5ad-9a9893115425",
+          "is_selected": true,
+          "display_name": "BankAccount",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "26d6a9e9-d96e-4f6d-b98d-91fe49ad4c47",
+          "is_selected": true,
+          "display_name": "BankBeneficiar",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "027a7cd4-fb97-4dc0-bb58-fbdac2bf670f",
+          "is_selected": true,
+          "display_name": "Code",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "028e9061-4f48-4214-a1bb-7d955e87c034",
+          "is_selected": true,
+          "display_name": "CreateDate",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dba67736-653b-4ac2-9d64-57536e7a676f",
+          "is_selected": true,
+          "display_name": "EmailAddress",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dce9ebf9-a6a1-4bbf-8880-a3bf39e6513f",
+          "is_selected": true,
+          "display_name": "FaxNo",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "d5289721-9a5f-46a4-8893-5a706d91bbf4",
+          "is_selected": true,
+          "display_name": "IsActive",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "1e0a4b1a-7c4d-4fc5-8e2a-51e1debc7afa",
+          "is_selected": true,
+          "display_name": "IsVerified",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "133e4f13-f1f8-4fb8-9b0a-6ef4ff13dbfb",
+          "is_selected": true,
+          "display_name": "MobileNo",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "061cc11f-18e2-4048-94da-0d721fa553bf",
+          "is_selected": true,
+          "display_name": "Name",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": "ExternalOrganization",
+          "children": []
+        },
+        {
+          "id": "4e9d0dee-9c50-482e-85f3-1efcdb5f56d9",
+          "is_selected": true,
+          "display_name": "Notes",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "3b6be924-34bd-4d63-8d2a-6df27aba9cf2",
+          "is_selected": true,
+          "display_name": "PhoneNo",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "fda8e00f-7e9b-4a93-bd48-4f7f39492e01",
+      "is_selected": true,
+      "display_name": "FactBillSummary",
+      "type": "semantic_model.table",
+      "description": "Used to retrieve summarized or aggregated billing information. This table helps analyze billing data at a higher level, such as total amounts or counts grouped by period (date, month, year) or hospital.\n\nExample Use Cases:\n\nView total billing per hospital per month\nCount number of bills by date range\nAnalyze overall revenue trends",
+      "children": [
+        {
+          "id": "7aa33419-51a2-4b5c-b327-c5ff96a0123a",
+          "is_selected": true,
+          "display_name": "InvoiceDate",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "17cd3d18-8439-4a42-b521-7da61229037a",
+          "is_selected": true,
+          "display_name": "ReferralExternalOrganizationId",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "433ae1ed-ed4c-46d4-8b75-b84a95ceebf5",
+          "is_selected": true,
+          "display_name": "SalesDiscountId",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "67fb76b8-ea3f-4081-846f-06584e21522d",
+          "is_selected": true,
+          "display_name": "TotalInvoiceBalance",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "a725239d-45a1-46c8-b0c1-d90bfc42de3d",
+          "is_selected": true,
+          "display_name": "TotalInvoiceNetAmount",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "7bfac869-faf1-4a6b-98ef-44d9c4f7ab91",
+          "is_selected": true,
+          "display_name": "TotalPatientBalance",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "f0cb1789-152b-443d-a5e7-651c8da22351",
+          "is_selected": true,
+          "display_name": "TotalPatientNetAmount",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "d17035b4-3ea9-4769-ac8e-226b1a08d44b",
+          "is_selected": true,
+          "display_name": "TotalPayerBalance",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "7d1fdb7b-b957-4cb9-ab94-36d6d2734a26",
+          "is_selected": true,
+          "display_name": "TotalPayerNetAmount",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "4a069496-8fde-4490-89c3-abec3f7fade2",
+          "is_selected": true,
+          "display_name": "TotalPayment",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "12cce440-0a93-4c55-b0cd-acbb0239196b",
+      "is_selected": true,
+      "display_name": "PaymentMode",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "d27b0359-c679-4b39-aa17-5ac885f0e8bf",
+          "is_selected": true,
+          "display_name": "Code",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": "Payment Method Code",
+          "children": []
+        },
+        {
+          "id": "5d59d6c3-d889-4201-ab30-88b8e1288df4",
+          "is_selected": true,
+          "display_name": "IsActive",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "4cd43234-fede-4c63-803b-eaa2fced5aef",
+          "is_selected": true,
+          "display_name": "IsApplicableToAp",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "64a3596c-f381-408a-a067-7a57371d7774",
+          "is_selected": true,
+          "display_name": "IsApplicableToArPayment",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "d5545838-8279-4f2a-ad04-21f7f10af388",
+          "is_selected": true,
+          "display_name": "IsApplicableToArRefund",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "8e39afad-eda3-4b5a-8e8b-4fd6e7dc756c",
+          "is_selected": true,
+          "display_name": "IsApplicableToDeposit",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "c5ca4059-8d94-4bba-9464-f01249ad9049",
+          "is_selected": true,
+          "display_name": "IsApplicableToPayer",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "f5d95b58-d168-405e-8b35-3d636ed2ff8b",
+          "is_selected": true,
+          "display_name": "LocalName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": "Payment Method in Indonesian",
+          "children": []
+        },
+        {
+          "id": "04c1c77e-6ad3-49fd-b639-36209265b76e",
+          "is_selected": true,
+          "display_name": "Name",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": "Payment Method in English",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

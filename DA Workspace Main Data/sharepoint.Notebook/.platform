@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "sharepoint"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ded7fc7f-5c08-ba0f-4ba6-516a0982ba90"
+  }
+}

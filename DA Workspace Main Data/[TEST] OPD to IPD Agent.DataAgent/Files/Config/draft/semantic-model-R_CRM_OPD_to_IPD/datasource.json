@@ -1,0 +1,1074 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/dataSource/1.0.0/schema.json",
+  "artifactId": "4cd8ba09-ef95-4249-a71f-4b8982340289",
+  "workspaceId": "b3388e00-b7d8-4bce-ab3a-fa68bcd4bfa0",
+  "dataSourceInstructions": null,
+  "displayName": "R_CRM_OPD_to_IPD",
+  "type": "semantic_model",
+  "userDescription": null,
+  "metadata": {},
+  "elements": [
+    {
+      "id": "a5e41c69-0b61-480b-b386-a6c8405bcd15",
+      "is_selected": false,
+      "display_name": "aMeasure",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "b3d07ce9-2bf3-4bab-b104-46519fcfe257",
+          "is_selected": true,
+          "display_name": "_CurrentYear",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "e14206eb-0958-4c8e-bffe-9d314d36b64a",
+          "is_selected": true,
+          "display_name": "Column",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "0bee8a2e-5ba4-4765-9375-24ca46480bda",
+          "is_selected": true,
+          "display_name": "CRM CVR W0 %",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "78e566d6-81a3-4b16-abf5-8c4e0e814a07",
+          "is_selected": true,
+          "display_name": "CRM CVR W1 %",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "1a8ad5ae-d3ff-41ff-b8a9-69552ee56841",
+          "is_selected": true,
+          "display_name": "CRM CVR W2 %",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "aef42068-34a7-4cc3-ba67-981fa5a457e4",
+          "is_selected": true,
+          "display_name": "CRM CVR W3 %",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "c4ce3cae-fb11-45f6-83ba-1396b3f3599d",
+          "is_selected": true,
+          "display_name": "CRM CVR W4 %",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "94ac10bd-16d1-4092-9f7a-9daf776c6426",
+          "is_selected": true,
+          "display_name": "CVR %",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "6730c8c7-06f2-4461-87ea-d37235ab5235",
+          "is_selected": true,
+          "display_name": "CVR % LY",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "7013ce56-87d2-4035-a3fe-1e18a60d94de",
+          "is_selected": true,
+          "display_name": "CVR % Overview",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "6099eae1-a83c-4fee-91d6-d5ffae5ecac6",
+          "is_selected": true,
+          "display_name": "CVR % Overview LY",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "43b89374-35d5-4d11-91c5-6b4c7a0a7260",
+          "is_selected": true,
+          "display_name": "IPD Count",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "5ba52428-83ff-4621-8b9a-fc77fa623fc5",
+          "is_selected": true,
+          "display_name": "IPD Count LY",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "e1fd6f02-8692-406c-a9c5-e19d708a3c5d",
+          "is_selected": true,
+          "display_name": "IPD Count Overview",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "002c5163-1ec2-43b6-8feb-6dba5e51f948",
+          "is_selected": true,
+          "display_name": "KPI CY",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "d7eb2236-d375-4d0a-9bc5-3ee500957ce9",
+          "is_selected": true,
+          "display_name": "KPI CY Formatted",
+          "type": "semantic_model.measure",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "b4a36ff3-6273-47c5-9777-2d8ad3c6807d",
+          "is_selected": true,
+          "display_name": "KPI LY",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "25829ef7-73c5-44a5-a5d3-8261e53396b5",
+          "is_selected": true,
+          "display_name": "KPI Value (Raw)",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "d4edfa53-ed30-4d27-8a24-c31ae780b878",
+          "is_selected": true,
+          "display_name": "KPI vs LY %",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "8d6e6985-206b-49ac-917c-aad3954eede1",
+          "is_selected": true,
+          "display_name": "O CurrentYear",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "0bbfa883-a320-4d4e-8ea7-dddea023f9b2",
+          "is_selected": true,
+          "display_name": "O KPI CY",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "c68a2ed1-967e-4876-b699-d4db7995424e",
+          "is_selected": true,
+          "display_name": "O KPI CY Formatted",
+          "type": "semantic_model.measure",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "a39e2f0d-0da8-4b25-b8a4-2a4432eecd67",
+          "is_selected": true,
+          "display_name": "O KPI LY",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "0bf9a938-6ea5-495b-be35-2a2da2b48ce5",
+          "is_selected": true,
+          "display_name": "O KPI Value (Raw)",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "7b486c08-abf3-437f-8524-3b793b62bafd",
+          "is_selected": true,
+          "display_name": "O KPI vs LY %",
+          "type": "semantic_model.measure",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "39bfa45f-235a-4133-9a19-8ceca05fdb39",
+          "is_selected": true,
+          "display_name": "OPD Count",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "0c4a83b2-772a-4f0e-9e95-c69f297d2b57",
+          "is_selected": true,
+          "display_name": "OPD Count Last Week",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "910a4640-e2f0-4908-b781-0ece98c82ab0",
+          "is_selected": true,
+          "display_name": "OPD Count LY",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "e557c72d-8b5d-419d-b96c-84128853801d",
+          "is_selected": true,
+          "display_name": "OPD Count Overview",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "6d5b142a-874e-4a32-90ea-a92aaede341e",
+          "is_selected": true,
+          "display_name": "OPD Count vs Last Week %",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "fad77608-2af8-4a2a-9597-e1fff6f65cdf",
+          "is_selected": true,
+          "display_name": "OPD Overview Count LY",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "a06df2fb-9744-41f5-89da-423111e079c9",
+          "is_selected": true,
+          "display_name": "OPDtoIPD Count Overview",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "14232ef8-9071-4623-b866-73b249b57357",
+          "is_selected": true,
+          "display_name": "OPDtoIPD Count Overview LY",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "c44407d2-8a20-4a71-b63e-aa2af348317e",
+          "is_selected": true,
+          "display_name": "SUM Revenue",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "0e1241a0-16f5-4bda-a456-66d258342ec3",
+          "is_selected": true,
+          "display_name": "SUM Revenue Overview",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "a7e33c12-be80-4502-a8a0-7b383dd4d795",
+          "is_selected": true,
+          "display_name": "Vs Benchmark",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "36d69f23-1d23-4d9f-83ee-4c95242b7f40",
+          "is_selected": true,
+          "display_name": "W0 IPD Count",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "5bde63f1-b807-41dc-9142-ceb8528ab56b",
+          "is_selected": true,
+          "display_name": "W0 IPD Revenue",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "71a8a60a-719c-48da-881d-da80705dc77b",
+          "is_selected": true,
+          "display_name": "W1 IPD Count",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "30748a2a-2130-46c5-92a4-ce54dd9c8029",
+          "is_selected": true,
+          "display_name": "W1 IPD Revenue",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "fdaad15a-ab9e-4af3-ad31-d17c53d95d71",
+          "is_selected": true,
+          "display_name": "W2 IPD Count",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "5de9defa-d4a4-4273-ba3e-e9c09dd35cf8",
+          "is_selected": true,
+          "display_name": "W2 IPD Revenue",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "16bcdae8-cc29-44d0-bcb3-fe79256a0d74",
+          "is_selected": true,
+          "display_name": "W3 IPD Count",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "9229cd92-9acc-430e-b216-e1efff8529d8",
+          "is_selected": true,
+          "display_name": "W3 IPD Revenue",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "14465272-a264-457a-99e0-a31c2013cf70",
+          "is_selected": true,
+          "display_name": "W4 IPD Count",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "4bd4dce9-7796-4de1-a2ac-59b3fb68dc14",
+          "is_selected": true,
+          "display_name": "W4 IPD Revenue",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "e4188f1a-c85e-47e1-b27e-0a666ce36dd7",
+          "is_selected": true,
+          "display_name": "W4 Vs LW",
+          "type": "semantic_model.measure",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "158cf1ce-28f5-4842-98a0-b8e2484748c4",
+          "is_selected": true,
+          "display_name": "W4 Vs LW %",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "0a5e3629-660a-4e25-bb82-137d5fdaa11c",
+          "is_selected": true,
+          "display_name": "W4 Vs LW Revenue",
+          "type": "semantic_model.measure",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "f4b22f9b-f2fa-4caf-bf52-0d8abb386550",
+      "is_selected": true,
+      "display_name": "DIM_City",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "79645929-5d49-465b-af45-a560b6518696",
+          "is_selected": true,
+          "display_name": "CityName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "36a7d28a-30db-45d5-8c87-6485d848dfe6",
+          "is_selected": true,
+          "display_name": "CountryName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "7d2aeba2-5a43-467b-b2aa-a4996bb62029",
+          "is_selected": true,
+          "display_name": "StateName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "a04316ab-c7a8-47ed-8a69-ecce7fdc76b6",
+      "is_selected": true,
+      "display_name": "DIM_Date",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "bb67b60e-828a-46a0-a0f9-f409802649a0",
+          "is_selected": true,
+          "display_name": "date",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "f98634a6-1c96-44be-812e-08a0a4c543f1",
+          "is_selected": true,
+          "display_name": "day",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "71bc0f95-4016-4a9d-8291-ac107ca2d3e9",
+          "is_selected": true,
+          "display_name": "day_of_week",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "45768610-85d8-4b99-b00c-a5207aaa1662",
+          "is_selected": true,
+          "display_name": "fiscal_month",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "8849e43a-c495-4fcb-8eb0-a951f9b05748",
+          "is_selected": true,
+          "display_name": "fiscal_year",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "49cd3155-cdad-4f69-81d3-45b9bec47664",
+          "is_selected": true,
+          "display_name": "holiday_name",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "0723bf3e-a705-44b2-86e1-3c1be2be7aa2",
+          "is_selected": true,
+          "display_name": "is_indonesia_holiday",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "d4bbec2c-1be0-48a3-b0fd-b5bcb8cf3be0",
+          "is_selected": true,
+          "display_name": "is_weekend",
+          "type": "semantic_model.column",
+          "data_type": "Boolean",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "cd44425b-e41d-49f3-b4fe-cd036180e7ca",
+          "is_selected": true,
+          "display_name": "month",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "8c182ef9-cf4f-40bd-bef3-57720adf5ea8",
+          "is_selected": true,
+          "display_name": "month_full_name",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "bff1e90a-db95-4d6d-b98a-e6432af94516",
+          "is_selected": true,
+          "display_name": "month_short_name",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "1da0837f-5616-44ab-9b62-f28797c4fe65",
+          "is_selected": true,
+          "display_name": "quarter",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "38350099-1c93-4a5d-b6fe-dd7d55fe5a48",
+          "is_selected": true,
+          "display_name": "week_end_date",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "164ff6e6-2322-481c-a848-86f3817d1f13",
+          "is_selected": true,
+          "display_name": "week_index",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "0a4e1937-7f3c-4ce7-a71b-b0606b0c1e6a",
+          "is_selected": true,
+          "display_name": "week_of_year",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "66995dcf-021e-4244-ad71-c0963591e309",
+          "is_selected": true,
+          "display_name": "week_range",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "7afeafcb-8817-47c1-8f0d-0f44ec6e28ef",
+          "is_selected": true,
+          "display_name": "week_start_date",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "940df31d-e4ff-4916-a0e6-103f3ab08445",
+          "is_selected": true,
+          "display_name": "week_start_senin",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "6248b909-1942-4f3f-b682-14c818fad1be",
+          "is_selected": true,
+          "display_name": "year",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "c7d9ae47-f159-45ec-82b1-69b3383aa4d4",
+          "is_selected": true,
+          "display_name": "Year_MonthNo",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "f8742888-2e51-44a5-ad6e-323e4d9932fa",
+          "is_selected": true,
+          "display_name": "Year_Quarter",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "2ba8e419-dfa0-4b76-874c-1be1a265779b",
+          "is_selected": true,
+          "display_name": "year_week_of_year",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "e5789687-4926-4d05-b8c6-879ff031d756",
+      "is_selected": true,
+      "display_name": "DIM_DoctorSpecialtyMapping",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "60103d8b-99fb-45d2-b898-4750bbfa21cb",
+          "is_selected": true,
+          "display_name": "DoctorName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "491e34e0-cab5-4d36-9dd3-0716bd45880f",
+          "is_selected": true,
+          "display_name": "Specialty",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "76775ac3-15b5-41dc-b19e-361d2ae4bde1",
+          "is_selected": true,
+          "display_name": "SpecialtyGroup",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "fc78fbcf-da07-450f-9ad3-6eb5db2cdbfa",
+          "is_selected": true,
+          "display_name": "SpecialtyId",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "640a9762-55ec-4523-9c7d-d0aec1708f01",
+      "is_selected": true,
+      "display_name": "DIM_Organization",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "d2db2bb9-7d07-409c-8664-67a6c5fcc23f",
+          "is_selected": true,
+          "display_name": "Archetype",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "4cad2dcf-779b-412b-a868-baaf41543564",
+          "is_selected": true,
+          "display_name": "HospitalRegion",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "f5375210-9632-4091-b018-b28c2f1dfa0c",
+          "is_selected": true,
+          "display_name": "OrganizationCode",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "639e4a42-d3b4-49b0-b644-dc70fd0461ca",
+          "is_selected": true,
+          "display_name": "OrganizationName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "f3c9f075-13b9-467a-89d0-2ae0cbcdc0bc",
+      "is_selected": true,
+      "display_name": "DIM_PayerGroupMapping",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "510530f8-c30c-4f05-b32c-83fd7a71418d",
+          "is_selected": true,
+          "display_name": "PayerCode",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "84da594a-2d40-46d5-a756-6ff0a3c50912",
+          "is_selected": true,
+          "display_name": "PayerGroupName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "c3fe3f92-2a27-49b1-9356-0921d79f298e",
+          "is_selected": true,
+          "display_name": "PayerName",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "12d88571-a28f-40d5-b738-f16c86bc9c32",
+      "is_selected": true,
+      "display_name": "FACT_OPDtoIPD",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "5d7cb6ef-4406-466f-816f-c975f02e69ec",
+          "is_selected": true,
+          "display_name": "Channel",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "df40753e-bca1-49d5-bf15-963e1e296d45",
+          "is_selected": true,
+          "display_name": "diff_week",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "cf2b7f36-809a-4a68-9174-4af9c4599246",
+          "is_selected": true,
+          "display_name": "IsProcedure",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "7674f7c8-79b8-410d-9b87-c865249edeeb",
+          "is_selected": true,
+          "display_name": "snapshotDate",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "16c2fc3c-bdd6-442e-8794-35f86650c060",
+          "is_selected": true,
+          "display_name": "Total_IPD_Admissions",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "bc176e79-80aa-4361-b8ac-ca3a593736bb",
+          "is_selected": true,
+          "display_name": "Total_IPD_InvoiceAmount",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "903134b4-e924-43df-9eca-d78f18b10810",
+          "is_selected": true,
+          "display_name": "Total_OPD_Admissions",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "096252a7-7003-4597-be84-d1aea0609d52",
+          "is_selected": true,
+          "display_name": "Total_OPD_InvoiceAmount",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "999d58e7-dc4a-48e4-8ea6-674b04b743d5",
+      "is_selected": true,
+      "display_name": "FACT_OPDtoIPD_Overview",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "cab977f5-66fe-4cbd-8a02-f99d4fc76540",
+          "is_selected": true,
+          "display_name": "C_IPD",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "8cef8211-7f92-4648-b3c8-5fed8bd0e126",
+          "is_selected": true,
+          "display_name": "C_OPD",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "8c6f7db8-713d-4664-88c8-d3fc214e2435",
+          "is_selected": true,
+          "display_name": "C_OPDtoIPD",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "bb05b648-0f35-40a3-96df-46fef825f1c5",
+          "is_selected": true,
+          "display_name": "Channel",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "06288dc1-d8a8-44a1-90eb-f05c6a1b0b69",
+          "is_selected": true,
+          "display_name": "long_name_month",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "4d4717df-047e-49e1-b884-c70d13e22e17",
+          "is_selected": true,
+          "display_name": "month",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "f548594d-402e-4249-9cc7-774c1b453d87",
+          "is_selected": true,
+          "display_name": "month_year_index",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "d4501259-8345-414b-86cd-66ac02bce62c",
+          "is_selected": true,
+          "display_name": "OrganizationId",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "d0a874ff-e787-44eb-af44-c601fbfd55a7",
+          "is_selected": true,
+          "display_name": "Revenue_IPD",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "2a964bb7-e5fb-485a-a327-c2889d155074",
+          "is_selected": true,
+          "display_name": "Revenue_OPD",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "8179b147-9ed4-406d-8403-a88bb6db25bb",
+          "is_selected": true,
+          "display_name": "Revenue_OPDtoIPD",
+          "type": "semantic_model.column",
+          "data_type": "Double",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "54e07a56-d8bd-4ab8-9bff-d060be62f3b4",
+          "is_selected": true,
+          "display_name": "short_name_month",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "af4ea5d5-45a0-4416-ba83-8f3b3484e8d6",
+          "is_selected": true,
+          "display_name": "SnapshotMonth",
+          "type": "semantic_model.column",
+          "data_type": "DateTime",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "e8757920-67a8-4057-85f8-8d56f48655c1",
+          "is_selected": true,
+          "display_name": "year",
+          "type": "semantic_model.column",
+          "data_type": "Int64",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "5b181725-74bd-4389-bfa4-0bb45c1b0833",
+      "is_selected": false,
+      "display_name": "Table",
+      "type": "semantic_model.table",
+      "description": null,
+      "children": [
+        {
+          "id": "35aea5e8-ef45-4968-91b3-ffb3e558e9e4",
+          "is_selected": true,
+          "display_name": "Index",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "1ce856ab-d8d9-4bb2-9eaf-133d11ac2d76",
+          "is_selected": true,
+          "display_name": "Index Overview",
+          "type": "semantic_model.column",
+          "data_type": "String",
+          "description": null,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataAgent",
+    "displayName": "[TEST] OPD to IPD Agent"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4566ad28-0acc-8da5-4e4c-80366595f257"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "415491_EWS Reasesment Nurse Compliance"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "8cebb365-98df-b3d2-4787-972b5e680440"
+  }
+}

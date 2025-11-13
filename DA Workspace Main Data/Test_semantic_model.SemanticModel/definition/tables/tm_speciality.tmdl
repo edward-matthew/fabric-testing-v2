@@ -1,0 +1,227 @@
+table tm_speciality
+	lineageTag: e84814ce-26f4-4d0a-a3df-8b8d988ccaaa
+	sourceLineageTag: [mysiloam_schedules_public].[tm_speciality]
+
+	column speciality_id
+		dataType: string
+		lineageTag: 69035c41-f770-436b-9147-1aa9feef65a8
+		sourceLineageTag: speciality_id
+		summarizeBy: none
+		sourceColumn: speciality_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column speciality_name_en
+		dataType: string
+		lineageTag: e917bf0f-7b94-4dd9-9928-8761a93a98a1
+		sourceLineageTag: speciality_name_en
+		summarizeBy: none
+		sourceColumn: speciality_name_en
+
+		annotation SummarizationSetBy = Automatic
+
+	column speciality_name
+		dataType: string
+		lineageTag: bc63f3bd-927a-4998-bb6e-47a36f222502
+		sourceLineageTag: speciality_name
+		summarizeBy: none
+		sourceColumn: speciality_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_delete
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 4d2be756-ccd2-4605-a4f8-37806686c014
+		sourceLineageTag: is_delete
+		summarizeBy: none
+		sourceColumn: is_delete
+
+		annotation SummarizationSetBy = Automatic
+
+	column created_by
+		dataType: string
+		lineageTag: 05c8afac-3e1a-4bc9-b10b-f127359fe041
+		sourceLineageTag: created_by
+		summarizeBy: none
+		sourceColumn: created_by
+
+		annotation SummarizationSetBy = Automatic
+
+	column created_from
+		dataType: string
+		lineageTag: f63ae205-db42-4b84-bc0f-3daaf5e6546c
+		sourceLineageTag: created_from
+		summarizeBy: none
+		sourceColumn: created_from
+
+		annotation SummarizationSetBy = Automatic
+
+	column modified_date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: d53376b1-4df9-4929-9b86-a29ad091876a
+		sourceLineageTag: modified_date
+		summarizeBy: none
+		sourceColumn: modified_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column note
+		dataType: string
+		lineageTag: 552cc55c-bb6d-4b2a-84fd-0fa7f7ea43b2
+		sourceLineageTag: note
+		summarizeBy: none
+		sourceColumn: note
+
+		annotation SummarizationSetBy = Automatic
+
+	column datalakeFilePath
+		dataType: string
+		lineageTag: 81875acd-7e8c-4bfa-8be4-aa6ca03605f3
+		sourceLineageTag: datalakeFilePath
+		summarizeBy: none
+		sourceColumn: datalakeFilePath
+
+		annotation SummarizationSetBy = Automatic
+
+	column datalakeFileModificationTime
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: e6b837b1-8ad4-4cc9-8262-40ba2b001cb3
+		sourceLineageTag: datalakeFileModificationTime
+		summarizeBy: none
+		sourceColumn: datalakeFileModificationTime
+
+		annotation SummarizationSetBy = Automatic
+
+	column datalakeTimestamp
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: b909d742-00fa-41e5-8a5d-ab3d6b0ca33a
+		sourceLineageTag: datalakeTimestamp
+		summarizeBy: none
+		sourceColumn: datalakeTimestamp
+
+		annotation SummarizationSetBy = Automatic
+
+	column service_id
+		dataType: string
+		lineageTag: 3f3f50f3-7a59-40d0-8729-bf7cace7e54d
+		sourceLineageTag: service_id
+		summarizeBy: none
+		sourceColumn: service_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column speciality_hope_id
+		dataType: int64
+		formatString: 0
+		lineageTag: b4ba0186-99d6-43be-bbc2-3f3c3df229e3
+		sourceLineageTag: speciality_hope_id
+		summarizeBy: sum
+		sourceColumn: speciality_hope_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_sco
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 9c63ff3f-6ff4-450d-bc28-d9155a9f4ed5
+		sourceLineageTag: is_sco
+		summarizeBy: none
+		sourceColumn: is_sco
+
+		annotation SummarizationSetBy = Automatic
+
+	column modified_name
+		dataType: string
+		lineageTag: 534dcfe2-6648-44f9-82eb-2555e82aa141
+		sourceLineageTag: modified_name
+		summarizeBy: none
+		sourceColumn: modified_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column modified_by
+		dataType: string
+		lineageTag: 16b83eba-b694-4861-bd54-2ad1ffb1b7fd
+		sourceLineageTag: modified_by
+		summarizeBy: none
+		sourceColumn: modified_by
+
+		annotation SummarizationSetBy = Automatic
+
+	column modified_from
+		dataType: string
+		lineageTag: 486c689f-f608-4b23-8d79-a0391b29caf2
+		sourceLineageTag: modified_from
+		summarizeBy: none
+		sourceColumn: modified_from
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_coe
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 47633257-6ffa-4cc2-9f93-a508b7f3a864
+		sourceLineageTag: is_coe
+		summarizeBy: none
+		sourceColumn: is_coe
+
+		annotation SummarizationSetBy = Automatic
+
+	column created_name
+		dataType: string
+		lineageTag: dfbb8edf-7050-4e11-b523-7dd9785bc058
+		sourceLineageTag: created_name
+		summarizeBy: none
+		sourceColumn: created_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column image_url
+		dataType: string
+		lineageTag: c397a2b0-49e7-4459-88fc-555ae0c8f1a7
+		sourceLineageTag: image_url
+		summarizeBy: none
+		sourceColumn: image_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column created_date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 5047f898-19ce-4a50-8535-489f428ef25e
+		sourceLineageTag: created_date
+		summarizeBy: none
+		sourceColumn: created_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column speciality_seo_key
+		dataType: string
+		lineageTag: 6c7c0f3c-b4ab-4800-b3c9-ae068e000248
+		sourceLineageTag: speciality_seo_key
+		summarizeBy: none
+		sourceColumn: speciality_seo_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column page_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 7aae2a12-400b-4e60-a12d-35515c058ba7
+		sourceLineageTag: page_id
+		summarizeBy: sum
+		sourceColumn: page_id
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tm_speciality = entity
+		mode: directLake
+		source
+			entityName: tm_speciality
+			schemaName: mysiloam_schedules_public
+			expressionSource: 'DirectLake - lakehouse_da'
+
